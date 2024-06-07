@@ -45,7 +45,7 @@ syn match NERDTreeDirSlash #/# containedin=NERDTreeDir
 "endif
 
 "highlighting for readonly files
-exec 'syn match NERDTreeRO #.*'.g:NERDTreeNodeDelimiter.'\zs.*\ze'.g:NERDTreeNodeDelimiter.'.*\['.g:NERDTreeGlyphReadOnly.'\]# contains=NERDTreeIgnore,NERDTreeBookmarkName,NERDTreeFile'
+"exec 'syn match NERDTreeRO #.*'.g:NERDTreeNodeDelimiter.'\zs.*\ze'.g:NERDTreeNodeDelimiter.'.*\['.g:NERDTreeGlyphReadOnly.'\]# contains=NERDTreeIgnore,NERDTreeBookmarkName,NERDTreeFile'
 
 "exec 'syn match NERDTreeFlags #\[[^\]]*\]\ze'.g:NERDTreeNodeDelimiter.'# containedin=NERDTreeFile,NERDTreeExecFile,NERDTreeLinkFile,NERDTreeRO,NERDTreeDir'
 
