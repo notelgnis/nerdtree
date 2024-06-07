@@ -72,13 +72,13 @@ let g:NERDTreeOldSortOrder = []
 
 let g:NERDTreeGlyphReadOnly = get(g:, 'NERDTreeGlyphReadOnly', 'RO')
 
-"if has('conceal')
+if has('conceal')
     let g:NERDTreeNodeDelimiter = get(g:, 'NERDTreeNodeDelimiter', "\x07")
-"elseif (g:NERDTreeDirArrowExpandable ==# "\u00a0" || g:NERDTreeDirArrowCollapsible ==# "\u00a0")
-    "let g:NERDTreeNodeDelimiter = get(g:, 'NERDTreeNodeDelimiter', "\u00b7")
-"else
-    "let g:NERDTreeNodeDelimiter = get(g:, 'NERDTreeNodeDelimiter', "\u00a0")
-"endif
+elseif (g:NERDTreeDirArrowExpandable ==# "\u00a0" || g:NERDTreeDirArrowCollapsible ==# "\u00a0")
+    let g:NERDTreeNodeDelimiter = get(g:, 'NERDTreeNodeDelimiter', "\u00b7")
+else
+    let g:NERDTreeNodeDelimiter = get(g:, 'NERDTreeNodeDelimiter', "\u00a0")
+endif
 
 "the exists() crap here is a hack to stop vim spazzing out when
 "loading a session that was created with an open nerd tree. It spazzes
