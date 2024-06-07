@@ -52,7 +52,7 @@ function! s:FlagSet.renderToString()
         return ''
     endif
 
-    return '[' . flagstring . ']'
+    return flagstring
 endfunction
 
 " vim: set sw=4 sts=4 et fdm=marker:
