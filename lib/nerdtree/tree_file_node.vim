@@ -86,7 +86,9 @@ endfunction
 " Return:
 " a string that can be used in the view to represent this node
 function! s:TreeFileNode.displayString()
-    return self.path.flagSet.renderToString() . self.path.displayString()
+    let flags = substitute(self.path.flagSet.renderToString(), '^\s\+', '', '')
+    return flags . self.path.displayString()    
+    "return self.path.flagSet.renderToString() . self.path.displayString()
     "return  self.path.displayString()
 endfunction
 
