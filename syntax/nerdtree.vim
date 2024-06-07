@@ -20,13 +20,13 @@ syn match NERDTreeLinkFile #.* ->#me=e-3 containedin=NERDTreeFile
 syn match NERDTreeLinkDir #.*/ ->#me=e-3 containedin=NERDTreeDir
 
 "highlighting to conceal the delimiter around the file/dir name
-if has('conceal')
+"if has('conceal')
     exec 'syn match NERDTreeNodeDelimiters #\%d' . char2nr(g:NERDTreeNodeDelimiter) . '# conceal containedin=ALL'
     setlocal conceallevel=2 concealcursor=nvic
-else
-    exec 'syn match NERDTreeNodeDelimiters #\%d' . char2nr(g:NERDTreeNodeDelimiter) . '# containedin=ALL'
-    hi! link NERDTreeNodeDelimiters Ignore
-endif
+"else
+    "exec 'syn match NERDTreeNodeDelimiters #\%d' . char2nr(g:NERDTreeNodeDelimiter) . '# containedin=ALL'
+    "hi! link NERDTreeNodeDelimiters Ignore
+"endif
 
 "highlighting for directory nodes and file nodes
 syn match NERDTreeDirSlash #/# containedin=NERDTreeDir
