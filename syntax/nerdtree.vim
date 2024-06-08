@@ -95,3 +95,6 @@ hi def link NERDTreeFlags Number
 hi def link NERDTreeCurrentNode Search
 
 hi NERDTreeFile ctermbg=NONE guibg=NONE
+
+syn match NERDTreeCSharpIconHighlight '' containedin=ALL
+hi NERDTreeCSharpIconHighlight guifg=#206040
