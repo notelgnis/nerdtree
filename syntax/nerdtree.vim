@@ -111,4 +111,4 @@ hi NERDTreeArrowClosedIconHighlight guifg=#b3b3b3
 hi NERDTreeArrowOpenedIconHighlight guifg=#b3b3b3
 hi NERDTreeFolderClosedIconHighlight guifg=#ff8566
 hi NERDTreeFolderOpendIconHighlight guifg=#ff8566
-hi NERDTreeYamlIconHighlight guifg=#39004d
+hi NERDTreeYamlIconHighlight guifg=#2e5cb8
