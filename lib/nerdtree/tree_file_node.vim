@@ -90,13 +90,10 @@ function! s:TreeFileNode.displayString()
     let flags = substitute(self.path.flagSet.renderToString(), '^\s\+', '', '')
 
     if self.path.displayString() =~ '\.csproj$'
-        " Добавляем специальный флаг или символ для .csproj файлов
-        return '󱍕' . ' ' . self.path.displayString()    
+        return '󱍕' . '  ' . self.path.displayString()    
     endif
 
     return flags . ' ' . self.path.displayString()    
-    "return self.path.flagSet.renderToString() . self.path.displayString()
-    "return  self.path.displayString()
 endfunction
 
 " FUNCTION: TreeFileNode.equals(treenode) {{{1
