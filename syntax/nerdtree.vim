@@ -98,3 +98,7 @@ hi NERDTreeFile ctermbg=NONE guibg=NONE
 
 syn match NERDTreeCSharpIconHighlight '' containedin=ALL
 hi NERDTreeCSharpIconHighlight guifg=#206040
+syn match NERDTreeCSharpIconHighlight '' containedin=ALL
+hi NERDTreeCSharpIconHighlight guifg=#b3b3b3
+syn match NERDTreeCSharpIconHighlight '' containedin=ALL
+hi NERDTreeCSharpIconHighlight guifg=#b3b3b3
