@@ -96,7 +96,7 @@ function! s:TreeDirNode.displayString()
     let l:result = ''
 
     " Build a label that identifies this TreeDirNode.
-    let l:label = ''
+    let l:label = ''
     let l:cascade = self.getCascade()
     for l:dirNode in l:cascade
         let l:next = l:dirNode.path.displayString()
