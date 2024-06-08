@@ -71,6 +71,7 @@ syn match NERDTreeSolutionIconHighlight '' containedin=ALL
 syn match NERDTreeGeneralIconHighlight ' ' containedin=ALL
 syn match NERDTreePicIconHighlight '' containedin=ALL
 syn match NERDTreeJsonIconHighlight ' ' containedin=ALL
+syn match NERDTreeMdIconHighlight '' containedin=ALL
 
 "hi NERDTreeCSharpIconHighlight guifg=#b3b3b3
 "hi NERDTreeCSharpIconHighlight guifg=#b3b3b3
@@ -122,3 +123,5 @@ hi NERDTreeSolutionIconHighlight guifg=#6600cc
 hi NERDTreeGeneralIconHighlight guifg=#666666
 hi NERDTreePicIconHighlight  guifg=#336699
 hi NERDTreeJsonIconHighlight   guifg=#ccff33
+hi NERDTreeMdIconHighlight   guifg=#669999
+
