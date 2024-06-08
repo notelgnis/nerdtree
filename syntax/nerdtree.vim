@@ -74,6 +74,7 @@ syn match NERDTreeJsonIconHighlight ' ' containedin=ALL
 syn match NERDTreeMdIconHighlight '' containedin=ALL
 syn match NERDTreePrjIconHighlight '󱃲' containedin=ALL
 syn match NERDTreeLuaIconHighlight '' containedin=ALL
+syn match NERDTreeXmlIconHighlight '󰅴' containedin=ALL
 
 "hi NERDTreeCSharpIconHighlight guifg=#b3b3b3
 "hi NERDTreeCSharpIconHighlight guifg=#b3b3b3
