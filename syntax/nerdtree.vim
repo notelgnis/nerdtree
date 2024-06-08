@@ -127,5 +127,5 @@ hi NERDTreePicIconHighlight  guifg=#336699
 hi NERDTreeJsonIconHighlight   guifg=#ccff33
 hi NERDTreeMdIconHighlight   guifg=#669999
 hi NERDTreePrjIconHighlight   guifg=#b366ff
-hi NERDTreeLuaIconHighlight   guifg=#4747d1
+hi NERDTreeLuaIconHighlight   guifg=#9999ff
 
