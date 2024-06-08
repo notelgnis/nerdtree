@@ -89,12 +89,12 @@ function! s:TreeFileNode.displayString()
 
     let flags = substitute(self.path.flagSet.renderToString(), '^\s\+', '', '')
 
-    if self.path.displayString() =~ '\.csproj$'
+    if self.path.displayString() =~ '\.csproj\(\*\)\?$'
         "return '󱅿' . '  ' . self.path.displayString() 
         return '󱃲' . '  ' . self.path.displayString()
     endif
 
-    if self.path.displayString() =~ '\.xml$'
+    if self.path.displayString() =~ '\.xml\(\*\)\?$'
         return '󰅴' . '  ' . self.path.displayString()
     endif
 
