@@ -64,8 +64,8 @@ syn match NERDTreeCSharpIconHighlight '' containedin=ALL
 syn match NERDTreeFolderClosedIconHighlight '' containedin=ALL
 syn match NERDTreeFolderOpenIconHighlight '' containedin=ALL
 
-hi NERDTreeCSharpIconHighlight guifg=#b3b3b3
-hi NERDTreeCSharpIconHighlight guifg=#b3b3b3
+"hi NERDTreeCSharpIconHighlight guifg=#b3b3b3
+"hi NERDTreeCSharpIconHighlight guifg=#b3b3b3
 
 hi def link NERDTreePart Special
 hi def link NERDTreePartFile Type
