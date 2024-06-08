@@ -60,6 +60,14 @@ syn match NERDTreeBookmarksHeader #^>-\+Bookmarks-\+$# contains=NERDTreeBookmark
 syn match NERDTreeBookmarkName #^>.\{-} #he=e-1 contains=NERDTreeBookmarksLeader
 syn match NERDTreeBookmark #^>.*$# contains=NERDTreeBookmarksLeader,NERDTreeBookmarkName,NERDTreeBookmarksHeader
 
+syn match NERDTreeCSharpIconHighlight '' containedin=ALL
+syn match NERDTreeFolderClosedIconHighlight '' containedin=ALL
+syn match NERDTreeFolderOpenIconHighlight '' containedin=ALL
+
+hi NERDTreeCSharpIconHighlight guifg=#206040
+hi NERDTreeCSharpIconHighlight guifg=#b3b3b3
+hi NERDTreeCSharpIconHighlight guifg=#b3b3b3
+
 hi def link NERDTreePart Special
 hi def link NERDTreePartFile Type
 hi def link NERDTreeExecFile Title
@@ -95,10 +103,3 @@ hi def link NERDTreeFlags Number
 hi def link NERDTreeCurrentNode Search
 
 hi NERDTreeFile ctermbg=NONE guibg=NONE
-
-syn match NERDTreeCSharpIconHighlight '' containedin=ALL
-hi NERDTreeCSharpIconHighlight guifg=#206040
-syn match NERDTreeFolderClosedIconHighlight '' containedin=ALL
-hi NERDTreeCSharpIconHighlight guifg=#b3b3b3
-syn match NERDTreeFolderOpenIconHighlight '' containedin=ALL
-hi NERDTreeCSharpIconHighlight guifg=#b3b3b3
