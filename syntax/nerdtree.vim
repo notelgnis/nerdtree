@@ -68,6 +68,7 @@ syn match NERDTreeFolderOpendIconHighlight '' containedin=ALL
 syn match NERDTreeYamlIconHighlight '' containedin=ALL
 syn match NERDTreeLicenseIconHighlight '' containedin=ALL
 syn match NERDTreeSolutionIconHighlight '' containedin=ALL
+syn match NERDTreeGeneralIconHighlight ' ' containedin=AL
 
 "hi NERDTreeCSharpIconHighlight guifg=#b3b3b3
 "hi NERDTreeCSharpIconHighlight guifg=#b3b3b3
@@ -116,4 +117,5 @@ hi NERDTreeFolderOpendIconHighlight guifg=#ff8566
 hi NERDTreeYamlIconHighlight guifg=#2e5cb8
 hi NERDTreeLicenseIconHighlight guifg=#ffcc00
 hi NERDTreeSolutionIconHighlight guifg=#6600cc
+hi NERDTreeGeneralIconHighlight guifg=#666666
 
