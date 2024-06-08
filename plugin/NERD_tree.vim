@@ -87,7 +87,7 @@ endif
 "because it doesnt store b:NERDTree(its a b: var, and its a hash)
 let g:NERDTreeStatusline = get(g:, 'NERDTreeStatusline', "%{exists('b:NERDTree')?b:NERDTree.root.path.str():''}")
 
-let g:NERDTreeWinPos  = get(g:, 'NERDTreeWinPos', 'left')
+let g:NERDTreeWinPos  = get(g:, 'NERDTreeWinPos', 'top')
 let g:NERDTreeWinSize = get(g:, 'NERDTreeWinSize', 45)
 
 "init the shell commands that will be used to copy nodes, and remove dir trees
