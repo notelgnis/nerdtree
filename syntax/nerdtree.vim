@@ -61,8 +61,8 @@ syn match NERDTreeBookmarkName #^>.\{-} #he=e-1 contains=NERDTreeBookmarksLeader
 syn match NERDTreeBookmark #^>.*$# contains=NERDTreeBookmarksLeader,NERDTreeBookmarkName,NERDTreeBookmarksHeader
 
 syn match NERDTreeCSharpIconHighlight '' containedin=ALL
-syn match NERDTreeFolderClosedIconHighlight '' containedin=ALL
-syn match NERDTreeFolderOpenIconHighlight '' containedin=ALL
+"syn match NERDTreeFolderClosedIconHighlight '' containedin=ALL
+"syn match NERDTreeFolderOpenIconHighlight '' containedin=ALL
 
 "hi NERDTreeCSharpIconHighlight guifg=#b3b3b3
 "hi NERDTreeCSharpIconHighlight guifg=#b3b3b3
