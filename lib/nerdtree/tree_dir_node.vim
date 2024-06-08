@@ -108,7 +108,7 @@ function! s:TreeDirNode.displayString()
     let l:symbol .= ('') "(g:NERDTreeDirArrowExpandable ==# '' ? '' : ' ')
     let l:flags = '  ' "l:cascade[-1].path.flagSet.renderToString()
 
-    return l:symbol . l:flags . l:label
+    return 'i'.l:symbol . l:flags . l:label
 endfunction
 
 " FUNCTION: TreeDirNode.findNode(path) {{{1
