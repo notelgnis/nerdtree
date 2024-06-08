@@ -88,7 +88,7 @@ endif
 let g:NERDTreeStatusline = get(g:, 'NERDTreeStatusline', "%{exists('b:NERDTree')?b:NERDTree.root.path.str():''}")
 
 let g:NERDTreeWinPos  = get(g:, 'NERDTreeWinPos', 'left')
-let g:NERDTreeWinSize = get(g:, 'NERDTreeWinSize', 41)
+let g:NERDTreeWinSize = get(g:, 'NERDTreeWinSize', 45)
 
 "init the shell commands that will be used to copy nodes, and remove dir trees
 "Note: the space after the command is important
