@@ -60,7 +60,7 @@ syn match NERDTreeBookmarksHeader #^>-\+Bookmarks-\+$# contains=NERDTreeBookmark
 syn match NERDTreeBookmarkName #^>.\{-} #he=e-1 contains=NERDTreeBookmarksLeader
 syn match NERDTreeBookmark #^>.*$# contains=NERDTreeBookmarksLeader,NERDTreeBookmarkName,NERDTreeBookmarksHeader
 
-syn match NERDTreeCSharpIconHighlight '' containedin=ALL
+syn match NERDTreeCSharpIconHighlight '󰌛' containedin=ALL
 syn match NERDTreeArrowClosedIconHighlight '' containedin=ALL 
 syn match NERDTreeArrowOpenedIconHighlight '' containedin=ALL 
 syn match NERDTreeFolderClosedIconHighlight '' containedin=ALL
@@ -119,8 +119,8 @@ hi NERDTreeFile ctermbg=NONE guibg=NONE
 hi NERDTreeCSharpIconHighlight guifg=#206040
 hi NERDTreeArrowClosedIconHighlight guifg=#b3b3b3
 hi NERDTreeArrowOpenedIconHighlight guifg=#b3b3b3
-hi NERDTreeFolderClosedIconHighlight guifg=#ff8566
-hi NERDTreeFolderOpendIconHighlight guifg=#ff8566
+hi NERDTreeFolderClosedIconHighlight guifg=#CC3333
+hi NERDTreeFolderOpendIconHighlight guifg=#CC3333
 hi NERDTreeYamlIconHighlight guifg=#2e5cb8
 hi NERDTreeLicenseIconHighlight guifg=#ffcc00
 hi NERDTreeSolutionIconHighlight guifg=#6600cc

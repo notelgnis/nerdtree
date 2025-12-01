@@ -107,7 +107,7 @@ function! s:TreeDirNode.displayString()
     "let l:symbol = (l:cascade[-1].isOpen ? ''.g:NERDTreeDirArrowCollapsible : ''.g:NERDTreeDirArrowExpandable )
     let l:symbol = (l:cascade[-1].isOpen ? g:NERDTreeDirArrowCollapsible : g:NERDTreeDirArrowExpandable )
     let l:symbol .= ('') "(g:NERDTreeDirArrowExpandable ==# '' ? '' : ' ')
-    let l:flags = '  ' "l:cascade[-1].path.flagSet.renderToString()
+    let l:flags = ' ' "l:cascade[-1].path.flagSet.renderToString()
 
     return l:symbol . l:flags . l:label
 endfunction
